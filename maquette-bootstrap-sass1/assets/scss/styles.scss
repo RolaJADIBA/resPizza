@@ -1,0 +1,118 @@
+// Imports scss
+@import "variables";
+
+// Imports css
+
+@import url('https://fonts.googleapis.com/css?family=Anton');
+
+@import url('https://fonts.googleapis.com/css?family=Anton|Poppins');
+
+
+// NAV
+nav{
+    .navbar-nav{
+        .nav-item{
+            color:white;
+            font-weight: bold;
+            .nav-link{
+                color: white;
+                font-weight: bold;
+            }
+        }
+    }
+    .shopping , .phone{
+        color: white;
+        font-weight: bold;
+    }
+}
+
+
+
+//Image Cintre
+
+#image-cintre{
+    background: url("../img/fond.jpg") no-repeat center;
+    background-size: cover;
+    .col-12{
+        height: 75vh;
+    }
+    #text{
+        width: 50%;
+        position: absolute;
+        top: 50%;
+        right: 0;
+        transform: translateY(-50%);
+        .new-menu{
+            font-family: $font-new-menu;
+            color: white;
+            background-color: $rouge;
+            font-size: 2rem;
+            display: inline;
+            padding: 3px 10px;
+            font-style: italic;
+        }
+        .pizza1{
+            color:white;
+            font-family: $font-new-menu;
+            font-size: 4rem;
+
+        }
+        .SEAFOOD{
+            color:$jaune;
+            font-family: $font-new-menu;
+            font-size: 3rem;
+  
+        }
+    }
+}
+// OFFERS
+#offers{
+    margin-top: 9vh;
+    .card{
+        overflow: hidden;
+        box-shadow: 10px 10px 5px grey;
+    }
+    .photo1{
+        background: url("../img/photo1.jpg")  no-repeat;
+        background-size: cover;
+        height: 30vh;
+        transition: 3s;
+        &:hover{
+            transform: scale(1.5);
+            transition: transform 3s;
+        }
+     }
+    .photo2{
+        background: url("../img/photo2.jpg") center no-repeat;
+        background-size: cover;
+        height: 30vh;
+        transition: 3s;
+        &:hover{
+            transform: scale(1.5);
+            transition: transform 3s;
+        }
+    }
+    .photo3{
+        background: url("../img/photo3.jfif") center no-repeat;
+        background-size: cover;
+        height: 30vh;
+        transition: 3s;
+        &:hover{
+            transform: scale(1.5);
+            transition: transform 3s;
+        }
+
+    }
+}
+
+.separator{
+    height: 3px;
+    width: 25%;
+    border: none;
+    box-shadow: none;
+    background-color: #A91B0C
+  }
+
+  .pizza{
+      margin-top: 9vh;
+  }

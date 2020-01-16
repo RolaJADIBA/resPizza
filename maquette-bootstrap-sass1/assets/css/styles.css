@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css?family=Anton");
+@import url("https://fonts.googleapis.com/css?family=Anton|Poppins");
+nav .navbar-nav .nav-item {
+  color: white;
+  font-weight: bold;
+}
+
+nav .navbar-nav .nav-item .nav-link {
+  color: white;
+  font-weight: bold;
+}
+
+nav .shopping, nav .phone {
+  color: white;
+  font-weight: bold;
+}
+
+#image-cintre {
+  background: url("../img/fond.jpg") no-repeat center;
+  background-size: cover;
+}
+
+#image-cintre .col-12 {
+  height: 75vh;
+}
+
+#image-cintre #text {
+  width: 50%;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+#image-cintre #text .new-menu {
+  font-family: "Anton", sans-serif;
+  color: white;
+  background-color: #dc3545;
+  font-size: 2rem;
+  display: inline;
+  padding: 3px 10px;
+  font-style: italic;
+}
+
+#image-cintre #text .pizza1 {
+  color: white;
+  font-family: "Anton", sans-serif;
+  font-size: 4rem;
+}
+
+#image-cintre #text .SEAFOOD {
+  color: #d4d432;
+  font-family: "Anton", sans-serif;
+  font-size: 3rem;
+}
+
+#offers {
+  margin-top: 9vh;
+}
+
+#offers .card {
+  overflow: hidden;
+  -webkit-box-shadow: 10px 10px 5px grey;
+          box-shadow: 10px 10px 5px grey;
+}
+
+#offers .photo1 {
+  background: url("../img/photo1.jpg") no-repeat;
+  background-size: cover;
+  height: 30vh;
+  -webkit-transition: 3s;
+  transition: 3s;
+}
+
+#offers .photo1:hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+  -webkit-transition: -webkit-transform 3s;
+  transition: -webkit-transform 3s;
+  transition: transform 3s;
+  transition: transform 3s, -webkit-transform 3s;
+}
+
+#offers .photo2 {
+  background: url("../img/photo2.jpg") center no-repeat;
+  background-size: cover;
+  height: 30vh;
+  -webkit-transition: 3s;
+  transition: 3s;
+}
+
+#offers .photo2:hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+  -webkit-transition: -webkit-transform 3s;
+  transition: -webkit-transform 3s;
+  transition: transform 3s;
+  transition: transform 3s, -webkit-transform 3s;
+}
+
+#offers .photo3 {
+  background: url("../img/photo3.jfif") center no-repeat;
+  background-size: cover;
+  height: 30vh;
+  -webkit-transition: 3s;
+  transition: 3s;
+}
+
+#offers .photo3:hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+  -webkit-transition: -webkit-transform 3s;
+  transition: -webkit-transform 3s;
+  transition: transform 3s;
+  transition: transform 3s, -webkit-transform 3s;
+}
+
+.separator {
+  height: 3px;
+  width: 25%;
+  border: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  background-color: #A91B0C;
+}
+
+.pizza {
+  margin-top: 9vh;
+}
+/*# sourceMappingURL=styles.css.map */
