@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Anton");
 @import url("https://fonts.googleapis.com/css?family=Anton|Poppins");
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
 nav .navbar-nav .nav-item {
   color: white;
   font-weight: bold;
@@ -8,6 +10,10 @@ nav .navbar-nav .nav-item {
 nav .navbar-nav .nav-item .nav-link {
   color: white;
   font-weight: bold;
+}
+
+nav .navbar-nav .nav-item .nav-link .dropdown-item:hover {
+  color: red;
 }
 
 nav .shopping, nav .phone {
@@ -56,7 +62,30 @@ nav .shopping, nav .phone {
 }
 
 #offers {
-  margin-top: 9vh;
+  margin-top: 12vh;
+}
+
+#offers h2 {
+  color: #333333;
+  font-family: "PlayfairDisplay-Bold";
+  font-size: 50px;
+}
+
+#offers p {
+  font-size: 2rem;
+}
+
+#offers .p1 {
+  color: green;
+  border: 5px solid green;
+  border-radius: 50%;
+}
+
+#offers .p2 {
+  background-color: #dc3545;
+  border-radius: 50%;
+  color: white;
+  padding: 10px;
 }
 
 #offers .card {
@@ -116,16 +145,109 @@ nav .shopping, nav .phone {
   transition: transform 3s, -webkit-transform 3s;
 }
 
+#pizza {
+  margin-top: 15vh;
+  font-family: "PlayfairDisplay-Bold";
+  font-size: 30px;
+  color: #666666;
+}
+
+#pizza h2 {
+  color: #333333;
+  font-size: 50px;
+}
+
+#pizza p {
+  text-align: center;
+  font-size: 0.5em;
+}
+
 .separator {
   height: 3px;
   width: 25%;
   border: none;
   -webkit-box-shadow: none;
           box-shadow: none;
+  margin: auto;
   background-color: #A91B0C;
 }
 
 .pizza {
   margin-top: 9vh;
+}
+
+footer {
+  padding: 20px;
+}
+
+footer .col-md-4 {
+  padding: 20px;
+}
+
+footer h3 {
+  font-size: 1.6rem;
+}
+
+footer ul li {
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 2.14;
+}
+
+footer ul li i {
+  margin-right: 15px;
+}
+
+footer ul li .text-left {
+  margin-right: 20px;
+}
+
+footer hr {
+  background-color: #747272;
+}
+
+.reservation {
+  margin-top: 9vh;
+  margin-bottom: 9vh;
+}
+
+.reservation h2 {
+  color: #333333;
+  font-family: "PlayfairDisplay-Bold";
+  font-size: 50px;
+}
+
+.iframe-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+  height: 0;
+}
+
+.iframe-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.nav1 {
+  background-color: #222222;
+  height: 12vh;
+}
+
+.about {
+  margin-top: 15vh;
+  font-family: "PlayfairDisplay-Bold";
+}
+
+.about h1 {
+  padding: 5vh;
+  font-size: 4.5rem;
+}
+
+.about p {
+  margin-top: 9vh;
+  font-size: 1rem;
 }
 /*# sourceMappingURL=styles.css.map */
