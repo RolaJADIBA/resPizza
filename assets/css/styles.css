@@ -12,8 +12,22 @@ nav .navbar-nav .nav-item .nav-link {
   font-weight: bold;
 }
 
-nav .navbar-nav .nav-item .nav-link .dropdown-item:hover {
-  color: red;
+nav .navbar-nav .nav-item .nav-link:hover {
+  color: #A91B0C !important;
+}
+
+nav .navbar-nav .nav-item .dropdown-menu {
+  background-color: #333333;
+}
+
+nav .navbar-nav .nav-item .dropdown-menu a {
+  color: white;
+}
+
+nav .navbar-nav .nav-item .dropdown-menu a:hover {
+  color: #A91B0C;
+  background-color: white !important;
+  font-weight: bold;
 }
 
 nav .shopping, nav .phone {
@@ -89,60 +103,8 @@ nav .shopping, nav .phone {
 }
 
 #offers .card {
-  overflow: hidden;
   -webkit-box-shadow: 10px 10px 5px grey;
           box-shadow: 10px 10px 5px grey;
-}
-
-#offers .photo1 {
-  background: url("../img/photo1.jpg") no-repeat;
-  background-size: cover;
-  height: 30vh;
-  -webkit-transition: 3s;
-  transition: 3s;
-}
-
-#offers .photo1:hover {
-  -webkit-transform: scale(1.5);
-          transform: scale(1.5);
-  -webkit-transition: -webkit-transform 3s;
-  transition: -webkit-transform 3s;
-  transition: transform 3s;
-  transition: transform 3s, -webkit-transform 3s;
-}
-
-#offers .photo2 {
-  background: url("../img/photo2.jpg") center no-repeat;
-  background-size: cover;
-  height: 30vh;
-  -webkit-transition: 3s;
-  transition: 3s;
-}
-
-#offers .photo2:hover {
-  -webkit-transform: scale(1.5);
-          transform: scale(1.5);
-  -webkit-transition: -webkit-transform 3s;
-  transition: -webkit-transform 3s;
-  transition: transform 3s;
-  transition: transform 3s, -webkit-transform 3s;
-}
-
-#offers .photo3 {
-  background: url("../img/photo3.jfif") center no-repeat;
-  background-size: cover;
-  height: 30vh;
-  -webkit-transition: 3s;
-  transition: 3s;
-}
-
-#offers .photo3:hover {
-  -webkit-transform: scale(1.5);
-          transform: scale(1.5);
-  -webkit-transition: -webkit-transform 3s;
-  transition: -webkit-transform 3s;
-  transition: transform 3s;
-  transition: transform 3s, -webkit-transform 3s;
 }
 
 #pizza {
@@ -234,6 +196,10 @@ footer hr {
 .nav1 {
   background-color: #222222;
   height: 12vh;
+}
+
+.nav1 .navbar-nav .nav-item .nav-link:hover {
+  color: #A91B0C;
 }
 
 .about {

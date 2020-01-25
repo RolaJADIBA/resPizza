@@ -22,7 +22,7 @@
 <body>
 	<section class="container-fluid" id="image-cintre">
 		<!--NAVBR-->
-		<nav class="navbar navbar-expand-lg navbar-light container-fluid">
+		<nav class="navbar navbar-expand-lg navbar-light container-fluid p-5">
 			<!-- <a class="navbar-brand" href="#"><img src="assets/img/logo2.jpg" height="70px" alt="logo"></a> -->
 			<button class="navbar-toggler bg-light" type="button" data-toggle="collapse"
 				data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -44,11 +44,11 @@
 						<!-- <i class="fas fa-bars mt-2"></i> -->
 						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
 							data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> MENU</a>
-						<div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
-							<a class="dropdown-item text-white" href="#menu">Lunche</a>
-							<a class="dropdown-item text-white" href="#menu">Dinner</a>
-							<a class="dropdown-item text-white" href="#menu">Dessert</a>
-							<a class="dropdown-item text-white" href="menu">Private Dinner</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<a class="dropdown-item" href="#menu">Lunche</a>
+							<a class="dropdown-item" href="#menu">Dinner</a>
+							<a class="dropdown-item" href="#menu">Dessert</a>
+							<a class="dropdown-item" href="menu">Private Dinner</a>
 						</div>
 					</li>
 					<li class="nav-item mr-3">
@@ -58,11 +58,11 @@
 						<a class="nav-link" href="aboutUs.html">ABOUT US</a>
 					</li>
 					<li class="nav-item mr-3">
-						<a class="nav-link" href="#">CONTACTS</a>
+						<a class="nav-link" href="contact.html">CONTACTS</a>
 					</li>
 				</ul>
 			</div>
-			<div class="d-none d-md-block mt-5">
+			<!-- <div class="d-none d-md-block mt-5">
 				<div class="mr-3">
 					<p class="text-white font-weight-bold"><i class="fas fa-phone-volume"></i>
 				       +1 (409) 987-5874</p>
@@ -71,7 +71,7 @@
 					<p class="text-white"><i class="fas fa-shopping-cart align-center"></i>
 					 (2) </p>
 				</div>
-			</div>
+			</div> -->
 		</nav>
 		<!--------------------------------IMAGE CINTRE------------------------------------->
 		<div class="row">
@@ -95,7 +95,7 @@
 			</div>
 			<div class="col-12 col-md-4 h-100 mt-5">
 				<div class="card h-100 text-center">
-					<img src="" class="card-img-top photo1">
+					<img src="assets/img/photo1.jpg" height="200" class="card-img-top photo1">
 					<div class="card-body">
 						<div class="row">
 							<p class="card-text col-md-6 p1 font-weight-bold">Crazy</p>
@@ -107,7 +107,7 @@
 			</div>
 			<div class="col-12 col-md-4 h-100 mt-5">
 				<div class="card h-100 text-center">
-					<img src="" class="card-img-top photo2">
+					<img src="assets/img/photo2.jpg" height="200" class="card-img-top photo2">
 					<div class="card-body">
 						<div class="row">
 							<p class="card-text col-md-6 p1 font-weight-bold">Student</p>
@@ -119,7 +119,7 @@
 			</div>
 			<div class="col-12 col-md-4 h-100 mt-5">
 				<div class="card h-100 text-center">
-					<img src="" class="card-img-top photo3">
+					<img src="assets/img/photo3.jfif" height="200" class="card-img-top photo3">
 					<div class="card-body">
 						<div class="row">
 							<p class="card-text col-md-6 p1 font-weight-bold">Mega</p>
@@ -136,6 +136,7 @@
 				<h2>Our Pizza</h2>
 				<hr class="separator">
 			</div>
+			<div class="col-md-12 col-sm-10">
 			<div class="owl-carousel owl-theme mt-5">
 				<div class="item"><h5 class="text-center">Kansas grill</h5><img src="assets/img/1.jpeg" height="200" alt="2"><p>Fresh Cream, Mozzarella, Minced Meat, Pickles, Texas Grill Sauce, Fried Onions.</p> </div>
 				<div class="item"><h5 class="text-center">Harlem Margherita</h5><img src="assets/img/2.jpeg" height="200" alt="2"><p>Tomato Sauce, Mozzarella</p></div>
@@ -152,6 +153,7 @@
 				<div class="item"><h5 class="text-center">Indiana </h5><img src="assets/img/12.jfif" height="200" alt="12"><p>Tomato Sauce, Mozzarella, Curry Sauce, Chopped Double Chicken, Potatoes</p></div>
 			</div>
 		</div>
+		</div>
 
 	<!---------------------------MENU---------------------------------------->
 		<!-- Our Menu -->
@@ -162,6 +164,7 @@
 					<div class="col-12 title-our-menu">
 						<h6>try &amp; discover</h6>
 						<h2>Our Menus</h2>
+						<hr class="separator">
 					</div>
 				</div>
 	
@@ -962,14 +965,15 @@
 			</div>
 		</section>
 		<!---------------------------RESERVATION-------------------------------->
-		<section class="reservation">
+		<section class="row justify-content-center mb-9"id="res">
 			<div class="col-md-12 text-center mt-3 mb-5">
 				<h2>Reservation</h2>
 				<hr class="separator">
 			</div>
-				<form action="" method="get" class="row justify-content-center mt-3 mb-5">
-
-						<select name="chose-pepole" class="form-control col-md-3 col-sm-8">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3 mt-3">
+						<select name="chose-pepole" class="form-control">
 							<option selected>1 personne</option>
 							<option>2 personne</option>
 							<option>3 personne</option>
@@ -978,20 +982,24 @@
 							<option>6 personne</option>
 							<option>7 personne</option>
 						</select>
-
-						<input type="date" class="form-control col-md-3 col-sm-8">
-
-						<!-- <input class="form-control col-md-3 col-sm-8"> -->
-						<select name="time" class="form-control col-md-3 col-sm-8">
+					</div>
+					<div class="col-md-3 mt-3">
+						<input type="date" class="form-control">
+					</div>
+					<div class="col-md-3 mt-3">
+						<select name="time" class="form-control">
 							<option selected>7:00 PM</option>
 							<option>8:00 PM</option>
 							<option>9:00 PM</option>
 						</select>
+					</div>
+					<div class="col-md-3 mt-3">
+						<button class="btn btn-danger btn-block">find table</button>
+					</div>
 
-						<button class="btn btn-danger col-md-2 col-sm-8">find table</button>
-				</form>
+				</div>
+			</div>
 		</section>
-	
 <!-----------------------FIN MAIN---------------------------------->
 	</main>
 
@@ -1025,9 +1033,9 @@
 			<div class="col-md-4">
 				<h3>Useful</h3>
 				<ul>
-					<li><span class="text-left">Home</span> <span class="text-right">About us</span></li>
-					<li><span class="text-left">Menus</span><span class="text-right">Rservation</span></li>
-					<li>Contact Us</li>
+					<li><span class="text-left"><a href="index.html">Home</a></span> <span class="text-right"><a href="aboutUs.html">About us</a></span></li>
+					<li><span class="text-left"><a href="#menu">Menus</a></span><span class="text-right"><a href="#res">Rservation</a></span></li>
+					<li><a href="contact.html">Contact Us</a></li>
 				</ul>
 			</div>
 		</div>

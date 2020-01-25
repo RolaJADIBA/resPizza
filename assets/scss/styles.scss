@@ -21,10 +21,19 @@ nav{
             .nav-link{
                 color: white;
                 font-weight: bold;
-                .dropdown-item{
-                    &:hover{
-                        color: red;
-                    }
+            }
+            .nav-link:hover{
+                color: #A91B0C !important;
+            }
+            .dropdown-menu{
+                background-color: #333333;
+                a{
+                    color: white;
+                }
+                a:hover{
+                    color: #A91B0C;
+                    background-color: white !important;
+                    font-weight: bold;
                 }
             }
         }
@@ -104,40 +113,40 @@ nav{
   
      
     .card{
-        overflow: hidden;
+        // overflow: hidden;
         box-shadow: 10px 10px 5px grey;
     }
-    .photo1{
-        background: url("../img/photo1.jpg")  no-repeat;
-        background-size: cover;
-        height: 30vh;
-        transition: 3s;
-        &:hover{
-            transform: scale(1.5);
-            transition: transform 3s;
-        }
-     }
-    .photo2{
-        background: url("../img/photo2.jpg") center no-repeat;
-        background-size: cover;
-        height: 30vh;
-        transition: 3s;
-        &:hover{
-            transform: scale(1.5);
-            transition: transform 3s;
-        }
-    }
-    .photo3{
-        background: url("../img/photo3.jfif") center no-repeat;
-        background-size: cover;
-        height: 30vh;
-        transition: 3s;
-        &:hover{
-            transform: scale(1.5);
-            transition: transform 3s;
-        }
+    // .photo1{
+    //     background: url("../img/photo1.jpg")  no-repeat;
+    //     background-size: cover;
+    //     height: 30vh;
+    //     transition: 3s;
+    //     &:hover{
+    //         transform: scale(1.5);
+    //         transition: transform 3s;
+    //     }
+    //  }
+    // .photo2{
+    //     background: url("../img/photo2.jpg") center no-repeat;
+    //     background-size: cover;
+    //     height: 30vh;
+    //     transition: 3s;
+    //     &:hover{
+    //         transform: scale(1.5);
+    //         transition: transform 3s;
+    //     }
+    // }
+    // .photo3{
+    //     background: url("../img/photo3.jfif") center no-repeat;
+    //     background-size: cover;
+    //     height: 30vh;
+    //     transition: 3s;
+    //     &:hover{
+    //         transform: scale(1.5);
+    //         transition: transform 3s;
+    //     }
 
-    }
+    // }
 }
 
 #pizza{
@@ -221,6 +230,13 @@ nav{
   .nav1{
       background-color: #222222;
       height: 12vh;
+      .navbar-nav{
+          .nav-item{
+              .nav-link:hover{
+                color: #A91B0C;
+              }
+          }
+      }
   }
 .about{
     margin-top: 15vh;
